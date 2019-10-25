@@ -1,5 +1,5 @@
 function fetchBooks() {
-  json = fetch('https://anapioficeandfire.com/api/books').to_json
+  const json = fetch('https://anapioficeandfire.com/api/books').to_json
   renderBooks(json)
 }
 
